@@ -42,4 +42,5 @@ This is a small collection of random system admin scripts that I've written. Man
 7) pingcast.ksh - Simple script to check status of a list of servers (if ICMP packets are blocked this won't work of course).
 8) pwgen.ksh - Simple script to generate x amount of random passwords initially aimed for sets of 3 random passwords per row for 3 environments for the same application accounts in each environment.
 9) setpass.ksh - Built to change a large collection of account passwords on a large number of servers quickly. Very specific for my own use.
+10) VerifyPasswords.ksh - Simple tool to check that newly generated passwords meet various security requirements. Currently setup to verify against the following: 8 or less shared characters between the new password and the previous password, at least 1 digit, at least 4 letters, and at least 0 special characters. I tossed this script together quickly to solve a specific problem/need at work.
 
